@@ -96,7 +96,9 @@ h3 { font-size: var(--fs-h3) }
             "img subtitle";
         grid-template-columns: min-content max-content;
     }
-    
+    .section__title--intro{
+        text-align: center;
+    }
     .intro__img {
         grid-area: img;
         min-width: 150px;
